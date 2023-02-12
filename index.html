@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/home.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;500;600;700&family=Poppins:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="header1">
+        <div
+          class="header d-none d-lg-block container d-lg-flex justify-content-between"
+        >
+          <ul class="header__item d-flex align-items-center m-0 p-0">
+            <li class="header__item__list px-2 py-2">
+              <a href="" class="header__item__list__link">
+                <img src="./images/header_1_new_york.svg" alt="logo" />
+              </a>
+            </li>
+            <li class="header__item__list px-2 py-2">
+              <a href="" class="header__item__list__link">
+                <img class="" src="./images/header_1_time.svg" alt="" />
+                Wednesday, 10 January 2021
+              </a>
+            </li>
+            <li class="header__item__list px-2 py-2">
+              <a href="" class="header__item__list__link">Breaking News</a>
+            </li>
+            <li class="header__item__list px-2 py-2">
+              <a href="" class="header__item__list__link"
+                >Indonesia says located black box recorders from crashed
+                plane</a
+              >
+            </li>
+          </ul>
+
+          <div class="header__networks d-flex align-items-center gap-2">
+            <a href="">
+              <img
+                src="./images/header_1_facebook.svg"
+                alt=""
+                class="header__networks__img"
+            /></a>
+
+            <a href="">
+              <img
+                src="./images/header_1_twitter.svg"
+                alt=""
+                class="header__networks__img"
+            /></a>
+            <a href="">
+              <img
+                src="./images/header_1_instagram.svg"
+                alt=""
+                class="header__networks__img"
+            /></a>
+            <a href="">
+              <img
+                src="./images/header_1_Youtube.svg"
+                alt=""
+                class="header__networks__img"
+            /></a>
+          </div>
+        </div>
+      </nav>
+
+      <!------------------- header 2 ------------------>
+
+      <nav>
+        <div
+          class="container header__adver d-none d-lg-block d-lg-flex justify-content-between align-items-center mt-3"
+        >
+          <div class="header__adver__left">
+            <img src="./images/header_2_newscats.svg" alt="logo" />
+          </div>
+          <div
+            class="header__adver__end d-flex justify-content-between align-items-center px-3 py-4 col-6"
+          >
+            <div class="header__adver__end_text col-6">
+              <p class="header__adver__end_text_1 p-0 m-0">
+                Best Selling BLOG and MAGAZINE Theme of All Time
+              </p>
+              <p class="header__adver__end_text_2 p-0 m-0">
+                Experience the change!
+              </p>
+            </div>
+            <div>
+              <button class="header__adver__end_btn px-2 py-2">
+                PURCHASE NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-------------------- header 3 --------------------->
+
+      <nav id="header3">
+        <div
+          class="container d-flex justify-content-between align-items-center"
+        >
+          <ul
+            id="navbar_nav"
+            class="header__nav_item d-flex align-items-center m-0 p-0"
+          >
+            <li class="header__nav_item_list px-3 pt-3 py-lg-3">
+              <a href="" class="header__item__list__link">Home</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">International</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Sports</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Opinion</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Business</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Youth</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Entertainment</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Lifestyle</a>
+            </li>
+            <li class="header__nav_item_list px-3 py-lg-3">
+              <a href="" class="header__item__list__link">Pages</a>
+            </li>
+
+            <button
+              class="header__nav_item_close d-lg-none"
+              onclick="closeNavbar()"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </ul>
+
+          <!------------ hamburger ------------>
+
+          <button class="hamburger" onclick="openNavbar()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <!----------- hamburger end  ------------- -->
+
+          <div
+            class="header__nav_end d-flex align-items-center justify-content-between col-3 col-lg-1"
+          >
+            <a class="co2 ps-4" href="#">Search for</a>
+            <a class="col-0" href="#"
+              ><img src="./images/header_3_iclone.svg" alt=""
+            /></a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!---------------------- main section --------------------->
+
+    <main>
+      <!--------------- section news ----------------->
+      <section>
+        <div class="container section__new d-lg-flex mt-4 ">
+          <div class="section__new__left col-lg-7">
+            __left
+            <p class="ps-4">Craig Bator - 27 Dec 2020</p>
+            <h2 class="ps-4 ">After all is said and done, more is done</h2>
+          </div>
+          <div class="section__new__right col ms-lg-3">
+            <div class="section__new__right__Business d-flex ">
+              <div class="section__new__right__Business_1 col-6">
+                <p class="ms-3">Craig Bator - 27 Dec 2020</p>
+                <h2 class="ms-3 mb-4">
+                  They’re back! Kennedy Darling named to return to
+                </h2>
+              </div>
+
+              <div class="section__new__right__Business_2 col-6 m">
+                <p class="ms-3">Craig Bator - 27 Dec 2020</p>
+                <h2 class="ms-3">Swiss authorities say Uber drivers should</h2>
+              </div>
+            </div>
+
+            <div class="section__new__right__post4 mb-0 mt-3 mb-0">
+              <p class="ms-3">Craig Bator - 27 Dec 2020</p>
+              <h2 class="ms-3 pb-5">
+                Tourism in Dubai is booming by international tourist
+              </h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="footer__top container row d-flex ms-auto me-auto mt-4">
+        <img
+          class="col-md-6 col-lg-4 p-lg-0"
+          src="./images/footer_images1.jpg"
+          alt=""
+        />
+        <img
+          class="col-md-6 col-lg-4 p-lg-0"
+          src="./images/footer_images2.svg"
+          alt=""
+        />
+        <img
+          class="col-md-6 col-lg-4 p-lg-0"
+          src="./images/footer_images3.jpg"
+          alt=""
+        />
+        <img
+          class="col-md-6 col-lg-4 p-lg-0"
+          src="./images/footer_images4.jpg"
+          alt=""
+        />
+        <img
+          class="col-md-6 col-lg-4 p-lg-0 d-md-none d-lg-block"
+          src="./images/footer_images5.jpg"
+          alt=""
+        />
+        <img
+          class="footer__top__img"
+          src="./images/footer_instagram1.svg"
+          alt=""
+        />
+      </div>
+
+      <div class="container footer pt-5 pb-5 d-lg-flex">
+        <div class="footer__list col-lg-3 me-2">
+          <img src="./images/footer_newscast.svg" alt="" />
+          <p class="mt-3 mb-3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque,
+            pellentesque dictum posuere id diam rutrum.
+          </p>
+          <div class="footer__list__networks">
+            <a class="pe-3" href=""
+              ><img src="./images/header_1_facebook.svg" alt=""
+            /></a>
+            <a class="px-2" href=""
+              ><img src="./images/header_1_twitter.svg" alt=""
+            /></a>
+            <a class="px-2" href=""
+              ><img src="./images/header_1_instagram.svg" alt=""
+            /></a>
+            <a class="px-2" href=""
+              ><img src="./images/header_1_Youtube.svg" alt=""
+            /></a>
+          </div>
+        </div>
+
+        <div class="footer__list px-2 ms-2 mt-5 mt-lg-0">
+          <h3>Photo gallery</h3>
+          <div class="footer__list__img__gallery d-flex">
+            <img class="col-4" src="./images/footer_galery_!.jpg" alt="" />
+            <img class="col-4" src="./images/footer_galery2.jpg" alt="" />
+            <img class="col-4" src="./images/footer_galery3.jpg" alt="" />
+          </div>
+
+          <div class="footer__list__img__gallery d-flex">
+            <img class="col-4" src="./images/footer_galery4.jpg" alt="" />
+            <img class="col-4" src="./images/footer_galery5.jpg" alt="" />
+            <img class="col-4" src="./images/footer_galery6.jpg" alt="" />
+          </div>
+        </div>
+
+        <div class="footer__list col-lg-3 px-2 mt-5 mt-lg-0">
+          <h3>Tags</h3>
+          <div class="footer__list__tags">
+            <a href="" class="footer__list__tags__footbal p-1">Football</a>
+            <a href="" class="footer__list__tags__Cricket p-1">Cricket</a>
+            <a href="" class="footer__list__tags__Covid p-1">Covid 19</a>
+            <a href="" class="footer__list__tags__Life p-1">Life Style</a>
+          </div>
+
+          <div class="footer__list__tags mt-3">
+            <a href="" class="footer__list__tags__TrandingNews p-1"
+              >Tranding News</a
+            >
+            <a href="" class="footer__list__tags__Technology p-1">Technology</a>
+            <a href="" class="footer__list__tags__Travel p-1">Travel</a>
+          </div>
+        </div>
+
+        <div class="footer__list col-lg-3 px-2 mt-5 mt-lg-0">
+          <h3>Stay In Touch</h3>
+          <p>
+            To be updated with all the latest news, offers and special
+            annoucements.
+          </p>
+          <form action="" class="row">
+            <input
+              class="mt-2 h-75 ms-2 w-80 text-center"
+              type="email"
+              placeholder="Your email address"
+            />
+
+            <button class="mt-2 h-75 ms-2 w-80" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 80 ||
+          document.documentElement.scrollTop > 80
+        ) {
+          document.getElementById("navbar").className = "nav-shrink";
+        } else {
+          document.getElementById("navbar").className = "";
+        }
+      }
+
+      function openNavbar() {
+        document.getElementById("navbar_nav").style.left = "0";
+      }
+      function closeNavbar() {
+        document.getElementById("navbar_nav").style.left = "-100%";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,428 @@
+@import ".././../css/global.css";
+
+
+// ----------------------header-------------------------------------
+
+// --------header_1------------------
+
+.container-cu {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+}  
+
+#header1{
+    background: #FFFFFF;
+    box-shadow: 0px 1px 10px rgba(246, 80, 80, 0.15);
+}
+
+.header{
+
+
+    &__item{
+        &__list{
+           a{
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 12px;
+            color: #393939;
+           } 
+
+           &:hover{
+           background: #F65050;
+           }
+        }
+
+
+    }
+}
+
+//------------------- header1 end--------------
+
+.header__adver{
+    margin-bottom: 25px;
+    &__end{
+        background-image: url(..//../images/header_2_ipg.jpg);
+        background-position: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &_text{
+            &_1{
+                font-family: 'Sofia Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 151.1%;
+                color: #FFFFFF;
+            }
+
+            &_2{
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 10px;
+                line-height: 151.1%;
+                color: #F65050;
+            }
+         }
+
+         &_btn{
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            background: #F65050;
+            color: #FFFFFF;
+
+            &:hover{
+                color:  #F65050;
+                background: #FFFFFF;
+            }
+         }
+       
+    }
+}
+
+
+// ---------------------header 3------------------
+
+#header3{
+    background: #393939;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+    .header__nav_item{
+
+        &_list{
+            a{
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color: #FFFFFF;
+
+             
+            }
+               &:hover{
+                    background: #F65050;
+                }
+        }
+    }
+
+    .header__nav_end{
+        height: 50px;
+        border-left:  0.5px solid rgba(255, 255, 255, 0.3);
+
+        a{
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 5px;
+            line-height: 10px;
+            color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+
+
+    @media  screen and(max-width:1008px) {
+        nav{
+            background: #19161B;
+            transition: 0.5s;
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            z-index: 9;
+        }
+        .header__nav_item{
+            position: absolute;
+            top: 0;
+            left: -100%;
+            bottom: 100%;
+            width: 100%;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            transition: 0.5s;  
+            height: 100vh;
+            background-color: #19161B;
+            padding: 0;
+            z-index: 4;
+
+            &_list{
+
+                padding: 0;
+
+                &:hover{
+                    background-color: #19161B;
+
+
+                }
+           }
+
+            a{
+                color: #666666;
+                font-size: 20px !important;
+                display: inline-block;
+
+                &:hover{
+                    color: aqua;
+                }
+            }
+
+            &_close{
+                display: block;
+                background-color: #19161B;
+                color: white;
+                width: 70px;
+                height: 70px;
+                font-size: 50px;
+                position: absolute;
+                top: 0;
+                right: 0;
+
+                &:hover{
+                    background-color: transparent;
+                    color: red;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+
+
+.nav-shrink{
+    padding: 25px 0;
+
+}
+
+.hamburger{
+    background-color: #F65050;;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    display: none;   
+
+    &:hover{
+        background-color: rgb(193, 58, 58);
+    }
+}
+
+@media screen and(max-width:1008px) {
+    .hamburger{
+        display: block;
+    }
+}
+
+//-------------- header end--------------------
+
+
+.section__new{
+    p{
+        font-family: 'Sofia Pro';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100.9%;
+        color: #FFFFFF;
+    }
+
+    h2{
+
+    }
+    &__left{
+        background-image: url(..//../images/section_new_im1.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+        p{
+            margin-top:421px;
+        }
+
+        h2{
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 36px;
+            line-height: 53px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+    }
+
+    &__right{
+        &__Business{
+            h2{
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                text-transform: capitalize;
+
+                color: #FFFFFF;
+            }
+            &_1{
+                background-image: url(../../images/section_new2.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+                p{
+                    margin-top: 195px;
+                }
+
+            } 
+            
+            &_2{
+                background-image: url(../../images/section_new3.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+
+                p{
+                    margin-top: 195px;
+                }
+            }
+        }
+
+        &__post4{
+            background-image: url(../../images/section_new4.jpg);
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            p{
+                padding-top: 173px;
+
+            }
+
+            h2{
+                font-family: 'Oswald';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 36px;
+                text-transform: capitalize;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+// ---------------------footer----------------------------------
+
+.footer__top{
+         position: relative;
+    
+        &__img{
+            width: 20px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+}
+
+#footer{
+    background: #393939;
+    width: 100%;
+
+    @media screen  and (min-width:992px){
+        .footer__top{
+            img{
+                width: 20%;
+
+            }
+        }
+    }
+}
+
+
+.footer{
+    &__list{
+        h3{
+            font-family: 'Oswald';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 100.9%;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            padding-bottom: 10px;
+            border-bottom:  1px solid #F65050;
+            width: 90%;
+        }
+
+
+        &__tags{
+
+            a{
+                font-family: 'Sofia Pro';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 14px;   
+                color: #FFFFFF;
+                margin-right: 2px;
+            }
+            &__footbal{
+                background: #F65050;   
+            }
+            &__Cricket{
+                background: #0088FF;
+            }
+
+            &__Covid{
+                background: #A56CBD;
+            }
+            &__Life{
+                background: #997C00;
+            }
+            &__TrandingNews{
+                background: #FFB8B8;
+            }
+            &__Technology{
+                background: #49CFE8;
+            }
+            &__Travel{
+                background: #4281FF;
+            }   
+        }
+
+        p{
+            font-family: 'Sofia Pro';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 149.1%;
+            color: #FFFFFF;
+        }
+
+        input{
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        button{
+            background: #F65050;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+
+    }
+}
+
+
+
+

@@ -1,0 +1,310 @@
+@import ".././../css/global.css";
+.container-cu {
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+#header1 {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 10px rgba(246, 80, 80, 0.15);
+}
+
+.header__item__list a {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: #393939;
+}
+.header__item__list:hover {
+  background: #F65050;
+}
+
+.header__adver {
+  margin-bottom: 25px;
+}
+.header__adver__end {
+  background-image: url(..//../images/header_2_ipg.jpg);
+  background-position: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header__adver__end_text_1 {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 151.1%;
+  color: #FFFFFF;
+}
+.header__adver__end_text_2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 151.1%;
+  color: #F65050;
+}
+.header__adver__end_btn {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  background: #F65050;
+  color: #FFFFFF;
+}
+.header__adver__end_btn:hover {
+  color: #F65050;
+  background: #FFFFFF;
+}
+
+#header3 {
+  background: #393939;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+#header3 .header__nav_item_list a {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+#header3 .header__nav_item_list:hover {
+  background: #F65050;
+}
+#header3 .header__nav_end {
+  height: 50px;
+  border-left: 0.5px solid rgba(255, 255, 255, 0.3);
+}
+#header3 .header__nav_end a {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 5px;
+  line-height: 10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+@media screen and (max-width: 1008px) {
+  #header3 nav {
+    background: #19161B;
+    transition: 0.5s;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
+  }
+  #header3 .header__nav_item {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    bottom: 100%;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    transition: 0.5s;
+    height: 100vh;
+    background-color: #19161B;
+    padding: 0;
+    z-index: 4;
+  }
+  #header3 .header__nav_item_list {
+    padding: 0;
+  }
+  #header3 .header__nav_item_list:hover {
+    background-color: #19161B;
+  }
+  #header3 .header__nav_item a {
+    color: #666666;
+    font-size: 20px !important;
+    display: inline-block;
+  }
+  #header3 .header__nav_item a:hover {
+    color: aqua;
+  }
+  #header3 .header__nav_item_close {
+    display: block;
+    background-color: #19161B;
+    color: white;
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  #header3 .header__nav_item_close:hover {
+    background-color: transparent;
+    color: red;
+  }
+}
+
+.nav-shrink {
+  padding: 25px 0;
+}
+
+.hamburger {
+  background-color: #F65050;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  display: none;
+}
+.hamburger:hover {
+  background-color: rgb(193, 58, 58);
+}
+
+@media screen and (max-width: 1008px) {
+  .hamburger {
+    display: block;
+  }
+}
+.section__new p {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100.9%;
+  color: #FFFFFF;
+}
+.section__new__left {
+  background-image: url(..//../images/section_new_im1.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section__new__left p {
+  margin-top: 421px;
+}
+.section__new__left h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 53px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.section__new__right__Business h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.section__new__right__Business_1 {
+  background-image: url(../../images/section_new2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section__new__right__Business_1 p {
+  margin-top: 195px;
+}
+.section__new__right__Business_2 {
+  background-image: url(../../images/section_new3.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section__new__right__Business_2 p {
+  margin-top: 195px;
+}
+.section__new__right__post4 {
+  background-image: url(../../images/section_new4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.section__new__right__post4 p {
+  padding-top: 173px;
+}
+.section__new__right__post4 h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+
+.footer__top {
+  position: relative;
+}
+.footer__top__img {
+  width: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#footer {
+  background: #393939;
+  width: 100%;
+}
+@media screen and (min-width: 992px) {
+  #footer .footer__top img {
+    width: 20%;
+  }
+}
+
+.footer__list h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100.9%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #F65050;
+  width: 90%;
+}
+.footer__list__tags a {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  color: #FFFFFF;
+  margin-right: 2px;
+}
+.footer__list__tags__footbal {
+  background: #F65050;
+}
+.footer__list__tags__Cricket {
+  background: #0088FF;
+}
+.footer__list__tags__Covid {
+  background: #A56CBD;
+}
+.footer__list__tags__Life {
+  background: #997C00;
+}
+.footer__list__tags__TrandingNews {
+  background: #FFB8B8;
+}
+.footer__list__tags__Technology {
+  background: #49CFE8;
+}
+.footer__list__tags__Travel {
+  background: #4281FF;
+}
+.footer__list p {
+  font-family: "Sofia Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 149.1%;
+  color: #FFFFFF;
+}
+.footer__list input {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer__list button {
+  background: #F65050;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}/*# sourceMappingURL=home.css.map */

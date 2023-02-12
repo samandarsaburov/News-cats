@@ -1,0 +1,20 @@
+body {
+  background: #E5E5E5;
+}
+
+a {
+  text-decoration: none;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}/*# sourceMappingURL=global.css.map */
